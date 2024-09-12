@@ -31,7 +31,7 @@ ul{
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .logo{
@@ -61,6 +61,7 @@ h2{
     background-color: rgb(63, 83, 215);
     display: grid;
     grid-row: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .welcome{
@@ -97,6 +98,7 @@ h2{
 .favImg{
     height: 240px;
     margin: 5px;
+    border: 2px solid black;
 }
 
 footer{
@@ -107,7 +109,12 @@ footer{
 
 li{
     font-size: 2rem;
-    color: rgb(180, 203, 246)
+    color: rgb(163, 185, 224)
+}
+
+li:hover{
+    color: rgb(242, 242, 242);
+    text-shadow: black 2px 2px;
 }
 
 nav a{
